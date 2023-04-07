@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+button{ 
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
